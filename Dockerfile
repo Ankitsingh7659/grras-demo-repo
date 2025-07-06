@@ -7,6 +7,5 @@ RUN cp -rf healet-html/* . &&\
      rm -rf healet-html
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-
      
      
